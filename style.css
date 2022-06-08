@@ -1,0 +1,299 @@
+html {background-color:darkgreen}
+body {
+    background-color: rgb(124, 252, 0);
+    font-family: cursive;
+    line-height: 3;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body {
+
+    
+}
+
+#page_wrapper{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+#page_wrapper:a:hover{
+    
+    
+}
+
+body > header {
+    grid-row: 1;
+    grid-column: 1/-1;   
+    margin-top: -20px;
+}
+body > article {grid-area: intro;}
+body > aside {grid-area: faq;}
+body > section {grid-area: articles;}
+body > footer {grid-area: footer;}
+/* body header styles */
+
+body > header > nav li {
+    width: 25%;
+}
+
+header h1 {margin-bottom: 0;
+    text-align: center;
+    background-color:darkgreen;}
+h1 {color:darkgreen;}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    margin:0 auto; 
+    text-align: center;
+    display: flex;
+    align-content: space-around;
+}
+
+
+nav li {
+    display: block;
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: black;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center;
+
+}
+p {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+/*Left Column PARAGRAPH Styles */
+
+
+artcle p {
+    color: rgb(248, 248, 186);
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+ 
+/* Left Column Styles */
+
+
+article {
+    padding: 0.0em;
+    
+    background-color: darkgreen;
+    margin-right: 200px;
+    color: rgb (248, 248, 186);
+    width: 100%;
+}
+
+artcle ol (padding-left: 25px;)
+
+
+article img {
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+}
+
+/* Right Column Styles */
+
+aside {
+    padding: .3em;
+    background: darkgreen;
+    color: black; 
+    width: 60%;
+    
+margin-top: 5px;
+}
+
+aside img {
+    display: block;
+    width: 100%;
+ 
+    
+}
+.resize {
+    width: 800px;
+    height: 700px;
+    margin-top: 20px;
+}
+/* Footer Styles */
+
+footer {
+    
+    clear: left;
+}
+/*Contact Infro Styles */
+footer p {
+    line-height: 1.4em;    
+}
+footer {text-align: center;
+    background-color: darkgreen}
+
+
+
+
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+width:100%;
+
+
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+
+ol  {
+        display: block;
+    width: 100%;
+    padding-left: 1000px;
+}  
+    
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Try this */
+
+*{
+    box-sizing:border-box;
+
+ 
+}
+body{
+    margin:0;
+    background:darkgreen;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    
+
+}
+nav a{
+    width: 220px;
+    display:inline-block;
+    text-decoration: overline;
+    text-align: center;
+    background:: yellowgreen;
+    font-size: 16px;
+    color: aquamarine;
+    padding: 20px 13px;
+    font-family: cursive; 
+}}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: green;
+    overflow: auto;
+    }
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 389px;
+
+    }
+.gallery2{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 389px;
+    margin-left: -5%;
+    margin-right: 3%;
+
+    }
+.gallery img{
+    width: 100%;
+    height: auto;
+    }
+.desc{
+    padding: 15px;
+    text-align:center;
+    }
+    }
+footer {
+    padding: 10px;
+    font-size: 17px;
+    font-weight:bold;
+    text-align: right;
+    background: #594848;
+    color: white;
+    font-family: Ariel;
+    letter-spacing: 100px;
+}
+
+
+
+/* Accordion */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: darkgreen;
+    margin-top: -20px;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.accordion-button {
+    background: green;
+    color: green;
+}
+.accordion-button:not(.collapsed collapsed) {
+    
+        background: black;
+    color: aquamarine; 
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: darkgreen;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: darkgreen;
+  display: none;
+  overflow: hidden;
+}
